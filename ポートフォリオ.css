@@ -1,0 +1,143 @@
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.container {
+    margin: 0px 100px;
+}
+body {
+    margin: 0;
+    text-align: center;
+
+}
+
+header {
+    
+}
+
+.h-inner {
+    position: fixed;
+    padding: 20px 0px;
+    display: flex;
+}
+
+.h-logo {
+    margin: 0;
+    text-align: left;
+}
+
+small {
+    vertical-align: bottom;
+    padding-top: 24px;
+}
+.h-slide {
+    padding-top: 80px;
+}
+
+.h-slide img {
+    width: 600px;
+    margin: 0px 100px;
+}
+
+.p-inner {
+    margin: 60px 0px;
+}
+
+.heading  {
+    display: flex;
+    align-items: center;
+    
+}
+
+.heading::before ,
+.heading::after {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: #666;
+
+}
+
+.heading::before {
+    margin-right: 3rem;
+    background: linear-gradient(-90deg, #666, transparent);
+}
+.heading::after {
+    margin-left: 3rem;
+    background: linear-gradient(90deg, #666, transparent);
+}
+
+.p-box {
+    margin: 60px 0px;
+}
+
+section img {
+    width: 150px;
+    height: 80px;
+}
+
+.material-icons.md-100 {
+    font-size: 100px; 
+}
+
+.ts-box {
+    overflow: hidden;
+}
+.ts-inner {
+    float: left;
+    margin: 60px 20px;
+    width: 30%;
+}
+
+.ts-inner p {
+    text-align: left;
+}
+
+.p-2-box {
+    overflow: hidden;
+    
+}
+
+.p-2-inner {
+    float: left;
+    width: 45%;
+    margin: 60px 10px;
+}
+
+.c-inner {
+    margin: auto;
+    width: 400px;
+    padding: 30px 0px;
+    border-bottom: 2px solid #666;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.ts-box {
+    animation-name: fadeup;
+    animation-duration: 2s;
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
